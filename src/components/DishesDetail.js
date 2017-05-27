@@ -99,23 +99,24 @@ const styles = {
   },
   dthumnailStyle: {
     height: 50,
-    width: 50
+    width: 50,
+    borderWidth: 2
   },
   dthumbnailContainerStyle: {
     justifyContent: 'center',
     alignItems: 'center',
     marginLeft: 10,
     marginRight: 10,
-    borderWidth: 2,
+    // borderWidth: 2,
     borderColor: 'black',
-    backgroundColor: 'white'
+    // backgroundColor: '#E2E1E4'
   },
   dimagesStyle: {
     height: 300,
     backgroundColor: 'white',
     flex: 1,
     width: null,
-    borderWidth: 2,
+    // borderWidth: 2,
     borderColor: 'black'
   }
 };

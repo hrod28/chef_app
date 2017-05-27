@@ -133,7 +133,9 @@ module.exports = React.createClass({
             {this.state.displayName}
           </Text>
         </View>
-
+        <View>
+          <Text style={styles.slink}>Click on a topic below to comment</Text>
+        </View>
 
 
 

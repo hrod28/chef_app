@@ -71,6 +71,14 @@ module.exports = StyleSheet.create({
     color: '#E2E34B',
     fontSize: 20
   },
+  slink: {
+    color: 'black',
+    fontWeight: '600',
+    paddingLeft: 15,
+    paddingRight: 15,
+    textAlign: 'center',
+    fontSize: 20
+  },
   feedback: {
     textAlign: 'center'
   },
