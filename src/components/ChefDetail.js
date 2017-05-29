@@ -5,7 +5,7 @@ import { Card, CardSection, Input, Button, Spinner, Header } from './common';
 
 
 const ChefDetail = ({ chef }) => {
-  const { name, restaurant, restaurant_logo, paired_logo, photo_url, restaurant_url, paired_with, serving_location } = chef;
+  const { name, restaurant, restaurant_logo, serving_photo, paired_logo, photo_url, restaurant_url, paired_with, serving_location } = chef;
   const {
     imagesStyle,
     thumnailStyle,
@@ -53,7 +53,7 @@ const ChefDetail = ({ chef }) => {
       <View style={thumbnailContainerStyle}>
       <Image
       style={thumnailStyle}
-      source={{ uri: paired_logo}}
+      source={{ uri: serving_photo}}
       />
       </View>
       <View style={headerContentStyle}>

@@ -11,6 +11,7 @@ import {
 
 import styles from '../../styles';
 import {firebaseApp} from './authentication';
+import { Card, CardSection, Input, Button, Spinner, Header } from '../common';
 
 module.exports = React.createClass({
   getInitialState() {
@@ -37,6 +38,9 @@ module.exports = React.createClass({
   render() {
     return (
       <View style={styles.container}>
+
+      
+
         <Text style={styles.feedback}>{this.state.result}</Text>
         <TextInput
           placeholder='Email'
@@ -69,7 +73,7 @@ module.exports = React.createClass({
         </View>
         <Image
         style={styles.imageStyle}
-        source={{ uri: 'https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/13620808_510156309173515_2481120937157259819_n.jpg?oh=43ce736ec4611b24a8197978e15bd1c3&oe=59523D01' }} />
+        source={{ uri: 'https://scontent.fapa1-1.fna.fbcdn.net/v/t31.0-8/18739043_1869648039962890_2108622490133771646_o.png?oh=29ecc9656ecac9bb0f8e631903332c96&oe=59A01ABB' }} />
       </View>
     );
   }
