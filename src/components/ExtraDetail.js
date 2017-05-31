@@ -19,7 +19,7 @@ const ExtraDetail = ({ extra }) => {
     <Card>
       <CardSection>
         <View style={sheaderContentStyle}>
-        <Text>Time:</Text>
+
         <Text style={sheaderTextStyle}>{time}</Text>
         <Text></Text>
         <Text style={sheaderTextStyle}>{title}</Text>

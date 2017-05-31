@@ -45,7 +45,7 @@ class ExtraList extends Component {
       </CardSection>
 
         <View>
-
+          <Header headerText="Extra Perks" />
           <TouchableOpacity
             onPress={() => this.props.navigator.push({name: 'LandingMenu'})}
           >
