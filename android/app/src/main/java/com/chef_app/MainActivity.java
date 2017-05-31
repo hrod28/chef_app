@@ -13,3 +13,12 @@ public class MainActivity extends ReactActivity {
         return "chef_app";
     }
 }
+
+@Override
+public void onBackPressed() {
+    if (mReactInstanceManager != null) {
+        mReactInstanceManager.onBackPressed();
+    } else {
+        super.onBackPressed();
+    }
+}

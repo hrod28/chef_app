@@ -81,6 +81,11 @@ class LandingMenu extends Component {
           </Button>
         </CardSection>
         <CardSection>
+          <Button onPress={() => this.props.navigator.push({name: 'ExtraList'})}>
+            Extra Perks
+          </Button>
+        </CardSection>
+        <CardSection>
           <Button onPress={() => this.props.navigator.push({name: 'BrewerList'})}>
             Meet the Brewer
           </Button>

@@ -1,7 +1,8 @@
 'use strict';
 import React from 'react';
 import {
-  Navigator
+  Navigator,
+  Backandroid
 } from 'react-native';
 
 
@@ -9,6 +10,7 @@ import LandingMenu from './components/LandingMenu';
 import BrewerList from './components/BrewerList';
 import VoteValidation from './components/VoteValidation';
 import ChefList from './components/ChefList';
+import ExtraList from './components/ExtraList';
 import VoteForm from './components/VoteForm';
 import Map from './components/Map';
 import DishesList from './components/DishesList';
@@ -33,6 +35,7 @@ const routes = {
   LandingMenu,
   BrewerList,
   ChefList,
+  ExtraList,
   VoteForm,
   VoteValidation,
   DishesList,
@@ -40,6 +43,8 @@ const routes = {
   SilentAuction,
   Special,
 };
+
+
 
 module.exports = React.createClass({
   render() {
