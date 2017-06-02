@@ -116,7 +116,7 @@ const styles = {
     backgroundColor: 'white',
     flex: 1,
     width: null,
-    // borderWidth: 2,
+    borderWidth: 2,
     borderColor: 'black'
   }
 };

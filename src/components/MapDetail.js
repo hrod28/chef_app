@@ -21,17 +21,17 @@ const MapDetail = ({ mmap }) => {
           <Text style={mheaderTextStyle}>Map to Yummy Treasures:</Text>
           <Image
             style={mimagesStyle}
-            source={{ uri: 'https://scontent.fapa1-1.fna.fbcdn.net/v/t31.0-8/1496161_922445181166870_1469914253497005430_o.jpg?oh=cd2a2719f86e4c2d1b6123f9b669c489&oe=59907889' }} />
+            source={{ uri: map_photo }} />
         </View>
       </CardSection>
 
       <CardSection>
-        <Button onPress={() => Linking.openURL('https://www.google.com/maps/@40.5842276,-105.078771,15z')}>
+        <Button onPress={() => Linking.openURL('http://chef-admin.surge.sh/mapMarker.html')}>
           Find This Event on Google Maps
         </Button>
       </CardSection>
 
-      
+
       <CardSection>
         <Image
           style={styles.imageStyle}
