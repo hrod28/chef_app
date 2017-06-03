@@ -18,7 +18,7 @@ const MapDetail = ({ mmap }) => {
     <Card>
       <CardSection>
         <View style={mheaderContentStyle}>
-          <Text style={mheaderTextStyle}>Map to Yummy Treasures:</Text>
+          <Text style={mheaderTextStyle}>      This Year's Event Map           </Text>
           <Image
             style={mimagesStyle}
             source={{ uri: map_photo }} />
@@ -26,7 +26,7 @@ const MapDetail = ({ mmap }) => {
       </CardSection>
 
       <CardSection>
-        <Button onPress={() => Linking.openURL('http://chef-admin.surge.sh/mapMarker.html')}>
+        <Button onPress={() => Linking.openURL('http://event-map.surge.sh/mapMarker.html')}>
           Find This Event on Google Maps
         </Button>
       </CardSection>
